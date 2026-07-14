@@ -1,0 +1,220 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#003366;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 50px;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("../img/portada.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero p{
+margin:20px;
+font-size:20px;
+width:70%;
+}
+
+.hero button{
+
+padding:15px 35px;
+
+font-size:18px;
+
+border:none;
+
+background:#00a8ff;
+
+color:white;
+
+cursor:pointer;
+
+border-radius:6px;
+
+}
+
+section{
+
+padding:100px 60px;
+
+}
+
+.contenedor{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+.card{
+
+background:white;
+
+width:300px;
+
+padding:25px;
+
+border-radius:10px;
+
+box-shadow:0 0 15px rgba(0,0,0,.2);
+
+text-align:center;
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+#nosotros{
+
+background:#e9ecef;
+
+text-align:center;
+
+}
+
+form{
+
+width:400px;
+
+margin:auto;
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+input,textarea{
+
+margin:10px 0;
+
+padding:15px;
+
+font-size:16px;
+
+}
+
+textarea{
+
+height:150px;
+
+}
+
+form button{
+
+padding:15px;
+
+background:#003366;
+
+color:white;
+
+border:none;
+
+cursor:pointer;
+
+}
+
+#subir{
+
+position:fixed;
+
+bottom:30px;
+
+right:30px;
+
+padding:15px;
+
+border:none;
+
+border-radius:50%;
+
+background:#003366;
+
+color:white;
+
+font-size:20px;
+
+cursor:pointer;
+
+display:none;
+
+}
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("../imagenes/images.png");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
